@@ -2,7 +2,7 @@
 double a = Convert.ToDouble(Console.ReadLine());
 double b = Convert.ToDouble(Console.ReadLine());
 double c = Convert.ToDouble(Console.ReadLine());
-if ((a == c || a == b))
+if ((a == c || a == b || c == b))
 {
     Console.WriteLine("Треугольник равнобедренный");
 }
